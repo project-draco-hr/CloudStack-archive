@@ -1,3 +1,2 @@
 {
-  DbTestUtils.executeScript("cleanup.sql",false,true);
 }
