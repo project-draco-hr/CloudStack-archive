@@ -1,7 +1,9 @@
 {
-  String tablename=AnnotationHelper.getTableName(voObj);
-  if (tablename != null) {
-    addProxyObject(tablename,id,idFieldName);
+  if (voObj != null) {
+    String tablename=AnnotationHelper.getTableName(voObj);
+    if (tablename != null) {
+      addProxyObject(tablename,id,idFieldName);
+    }
   }
   return;
 }
