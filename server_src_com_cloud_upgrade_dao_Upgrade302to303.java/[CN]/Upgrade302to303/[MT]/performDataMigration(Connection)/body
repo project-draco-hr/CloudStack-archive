@@ -1,2 +1,3 @@
 {
+  setupExternalNetworkDevices(conn);
 }
